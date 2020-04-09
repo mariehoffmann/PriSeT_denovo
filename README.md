@@ -1,7 +1,11 @@
 # PriSeT_denovo
 Primers computed by PriSeT
 
-## Known Primers 
+## Plankton
+
+The plankton subfolder contains a list of published primer pairs (`known_primers.csv`) used for comparison with PriSeT's primers, a list of at most 50 most frequent primers per clade (`<taxid>_primers.csv`), and mixed list with published and _de novo_ primers ranked by frequency (`<taxid>__versus_known.csv`).
+
+### Known Primers 
  
 The file `known_primers.csv` contains DNA4 encoded primer pairs.
     
@@ -17,12 +21,19 @@ The file `known_primers.csv` contains DNA4 encoded primer pairs.
 | nSSU      | G18S4    | GCTTGTCTCAAAGATTAAGCC | 22R      | GCCTGCTGCCTTCCTTGGA   |   |
 | SSU       | SSU556F  | CGCGGTAATTCCAGCTYC    | SSU911R  | ATYCAAGAATTTCACCTCTGAC |   |
 
-## De Nove Primers
+### De Nov0 Primers
 
 File prefix corresponds to the clade ID according to NCBI's taxonomy. 
 
   * `id_primers.csv` contains the top 50 de novo computed primers w.r.t. frequency
   * `id_known_primers.csv` is the result of a meta analysis that compares frequency and coverage rates with known primers (see Table above)
+  
+## SARS-CoV-2
+
+The file `S2_Primers_PriSeT_SARS-CoV-2.csv` contains 114 primer pairs and amplicons computed on 19 SARS-CoV-2 genomes. The primers produce amplicons selective for SARS-CoV-2, and have no 100 % sequence identity matches to sequences outside the _Sarbecoviruses_ and most are even distinct from other _Sarbecoviruses_ (e.g. bat or pangolin isolates). The approximate locations are shown in the figure below. The first four digits of the _de novo_ primer identifiers are displayed.
+
+
+
 
 
 
