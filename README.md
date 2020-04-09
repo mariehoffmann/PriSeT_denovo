@@ -21,7 +21,7 @@ The file `known_primers.csv` contains DNA4 encoded primer pairs.
 | nSSU      | G18S4    | GCTTGTCTCAAAGATTAAGCC | 22R      | GCCTGCTGCCTTCCTTGGA   |   |
 | SSU       | SSU556F  | CGCGGTAATTCCAGCTYC    | SSU911R  | ATYCAAGAATTTCACCTCTGAC |   |
 
-### De Nov0 Primers
+### De Novo Primers
 
 File prefix corresponds to the clade ID according to NCBI's taxonomy. 
 
@@ -30,10 +30,8 @@ File prefix corresponds to the clade ID according to NCBI's taxonomy.
   
 ## SARS-CoV-2
 
-The file `S2_Primers_PriSeT_SARS-CoV-2.csv` contains 114 primer pairs and amplicons computed on 19 SARS-CoV-2 genomes. The primers produce amplicons selective for SARS-CoV-2, and have no 100 % sequence identity matches to sequences outside the _Sarbecoviruses_ and most are even distinct from other _Sarbecoviruses_ (e.g. bat or pangolin isolates). The approximate locations are shown in the figure below. The first four digits of the _de novo_ primer identifiers are displayed.
+The file `S2_Primers_PriSeT_SARS-CoV-2.csv` contains 114 primer pairs and amplicons computed on 19 SARS-CoV-2 genomes. The primers produce amplicons selective for SARS-CoV-2, and have no 100 % sequence identity matches to sequences outside the _Sarbecoviruses_ and most are even distinct from other _Sarbecoviruses_ (e.g. bat or pangolin isolates) verified via online BLAST searches against GenBank's nr/nt dataset on 3rd of April 2020. The approximate locations are shown in the figure below. The first four digits of the _de novo_ primer identifiers are displayed.
 
-
-
-
+![Image description](https://github.com/mariehoffmann/PriSeT_denovo/blob/master/SARS-CoV-2/SARS-CoV-2_amplicons.png)
 
 
