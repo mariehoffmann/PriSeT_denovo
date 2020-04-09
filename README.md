@@ -1,9 +1,10 @@
-# PriSeT_denovo
-Primers computed by PriSeT
+# PriSeT _de novo_
+
+Primers computed by PriSeT on clades found in freshwater plankton and SARS-CoV-2 genomes.
 
 ## Plankton
 
-The plankton subfolder contains a list of published primer pairs (`known_primers.csv`) used for comparison with PriSeT's primers, a list of at most 50 most frequent primers per clade (`<taxid>_primers.csv`), and mixed list with published and _de novo_ primers ranked by frequency (`<taxid>__versus_known.csv`).
+The plankton subfolder contains a list of published primer pairs (`known_primers.csv`) used for comparison with PriSeT's primers, a list of at most 50 most frequent primers per clade (`<taxid>_primers.csv`), and mixed list with published and _de novo_ primers ranked by frequency (`<taxid>_versus_known.csv`).
 
 ### Known Primers 
  
